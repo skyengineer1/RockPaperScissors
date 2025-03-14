@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#game-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#result.show {
+  opacity: 1;
+}
+
+#result.hide {
+  opacity: 0;
+}
+
+#buttons button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#reset {
+  background-color: #f44336;
+  margin-top: 20px;
+}
+
+#reset:hover {
+  background-color: #d32f2f;
+}
+
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background-color: #666;
+}
